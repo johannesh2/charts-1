@@ -1,0 +1,14 @@
+:host {
+  --vaadin-charts-color-0: var(--lumo-primary-color);
+  --vaadin-charts-color-1: var(--lumo-error-color);
+  --vaadin-charts-color-2: var(--lumo-success-color);
+  --vaadin-charts-color-3: var(--lumo-contrast);
+}
+
+.highcharts-bullet-target {
+	fill: var(--vaadin-charts-color-0);
+}
+
+.highcharts-plot-band .color-0 {
+	fill: #666666;
+}
